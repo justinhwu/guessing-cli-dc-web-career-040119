@@ -9,7 +9,7 @@ def run_guessing_game
   if input == a
     puts "You guessed the correct number!"
   else
-    puts "The computer guessed #{a}"
+    puts "The computer guessed #{a}."
   end
     a = rand(1..6)
     input = gets.chomp
