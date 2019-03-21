@@ -13,7 +13,6 @@ def run_guessing_game
   input = gets.chomp
   a = rand(1..6)
  end
-  if input == "exit"
     puts "Goodbye"
-  end
+  
 end
