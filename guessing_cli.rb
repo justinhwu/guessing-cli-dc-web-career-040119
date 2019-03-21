@@ -7,7 +7,7 @@ def run_guessing_game
   until input == "exit" do 
   if input == a
     puts "You guessed the correct number!"
-  elsif input != a
+  else
     puts "The computer guessed #{a}"
   end
   input = gets.chomp
