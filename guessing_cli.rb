@@ -4,14 +4,14 @@ def run_guessing_game
   input = gets.chomp
   a = rand(1..6)
   
-  until input = "exit" do 
+  until input == "exit" do 
   if input == a
     puts "You guessed the correct number!"
   elsif input != a
     puts "The computer guessed #{a}"
   end
  end
-  if input = "exit"
+  if input == "exit"
     puts "Goodbye"
   end
 end
