@@ -9,7 +9,7 @@ def run_guessing_game
   if input == a
     puts "You guessed the correct number!"
   else
-    puts "The computer guessed #{a}"
+    puts "The computer guessed #{a}."
   end
   puts "Guess a number between 1 and 6.\n"
     number = rand(1..6).to_s
