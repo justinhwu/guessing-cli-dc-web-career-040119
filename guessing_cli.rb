@@ -10,6 +10,8 @@ def run_guessing_game
   elsif input != a
     puts "The computer guessed #{a}"
   end
+  input = gets.chomp
+  a = rand(1..6)
  end
   if input == "exit"
     puts "Goodbye"
